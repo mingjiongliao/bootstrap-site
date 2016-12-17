@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Open+Sans|Droid+Serif|Lora");
 body {
-  font-family: "Droid Sans", "Lato", "Open Sans", Arial, sans-serif; }
+  font-family: "Droid Sans", "Lato", "Open Sans", Arial, sans-serif;}
 h1,
 h2,
 h3{
-  font-family: "Droid Serif", "Lora", Georgia, serif; }
+  font-family: "Droid Serif", "Lora", Georgia, serif;}
 
 .iconic{
     font-size: 2rem;
@@ -12,6 +12,7 @@ h3{
 footer{
   text-align: center;
 }
+
 .masthead{
     box-sizing: content-box;
     width: 100;
@@ -28,6 +29,7 @@ html {
 body{
     color:#2448E0;
 }
+
 @include media-breakpoint-up(sm) {
   html {
     font-size: 16px;
