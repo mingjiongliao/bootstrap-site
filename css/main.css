@@ -9,6 +9,22 @@ h3{
 .iconic{
     font-size: 2rem;
 }
+.iconic-social-facebook:before {
+    content: '\e23a';
+    color: hsl(240, 100%, 27%);
+}
+.iconic-social-twitter:before {
+    content: '\e243';
+    color: hsl(181, 100%, 41%);
+}
+.iconic-social-youtube:before {
+    content: '\e245';
+    color: hsl(300, 100%, 50%);
+}
+.iconic-social-instagram:before {
+    content: '\e23e';
+    color: hsl(280, 61%, 50%);
+}
 footer{
   text-align: center;
 }
