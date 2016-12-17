@@ -10,19 +10,15 @@ h3{
     font-size: 2rem;
 }
 .iconic-social-facebook:before {
-    content: '\e23a';
     color: hsl(240, 100%, 27%);
 }
 .iconic-social-twitter:before {
-    content: '\e243';
     color: hsl(181, 100%, 41%);
 }
 .iconic-social-youtube:before {
-    content: '\e245';
     color: hsl(300, 100%, 50%);
 }
 .iconic-social-instagram:before {
-    content: '\e23e';
     color: hsl(280, 61%, 50%);
 }
 footer{
@@ -38,7 +34,18 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-
+.navbar-light .navbar-nav .nav-link {
+    color: currentColor;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .active>.nav-link:focus, .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .open>.nav-link:focus, .navbar-light .navbar-nav .open>.nav-link:hover {
+    color: currentColor;
+}
+.nav {
+    margin-left: 3rem;
+}
 html {
   font-size: 14px;
 }
