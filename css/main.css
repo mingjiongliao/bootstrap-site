@@ -1,3 +1,5 @@
+/*color scheme: https://color.adobe.com/So-Close-So-Far-Blues-color-theme-3984066/edit/?copy=true&base=3&rule=Custom&selected=4&name=Copy%20of%20So%20Close%20So%20Far%20Blues&mode=hsv&rgbvalues=0.5599999999999999,0.6766664799999899,0.7,0.16000000000000003,0.1933332799999971,0.2,0.30000000000000004,0.5333337999997867,1,0.15000000000000002,0.17916619999997468,0.5,0.1249994399999696,0.09000000000000001,0.3&swatchOrder=0,1,2,3,4*/
+
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Open+Sans|Droid+Serif|Lora");
 body {
   font-family: "Droid Sans", "Lato", "Open Sans", Arial, sans-serif;}
@@ -9,17 +11,48 @@ h3{
 .iconic{
     font-size: 2rem;
 }
-.iconic-social-facebook:before {
-    color: hsl(240, 100%, 27%);
+.iconic-social-facebook{
+  background-color: #8FADB2;
+  margin-right: 20px;
+  color: #20174C;
+  border-radius: 50%;
 }
-.iconic-social-twitter:before {
-    color: hsl(181, 100%, 41%);
+.iconic-social-twitter{
+    background-color: #8FADB2;
+    border-radius: 80%;
+    margin-right: 20px;
 }
-.iconic-social-youtube:before {
-    color: hsl(300, 100%, 50%);
+
+.iconic-social-youtube{
+    background-color: #8FADB2;
+    border-radius: 45%;
+    margin-right: 20px;
+    color: #BB0000;
 }
-.iconic-social-instagram:before {
-    color: hsl(280, 61%, 50%);
+.iconic-social-instagram{
+    background-color: #8FADB2;
+    color: brown;
+    border-radius: 50%;
+}
+.iconic-social-facebook:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: goldenrod;
+}
+.iconic-social-twitter:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: goldenrod;
+}
+.iconic-social-youtube:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: goldenrod;
+}
+.iconic-social-instagram:hover {
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: goldenrod;
 }
 footer{
   text-align: center;
@@ -46,11 +79,17 @@ footer{
 .nav {
     margin-left: 3rem;
 }
+.bg-faded {
+    background-color: #B6DBE3;
+}
+.jumbotron {
+    background-color: #B6DBE3;
+}
 html {
   font-size: 14px;
 }
 body{
-    color:#2448E0;
+    color:#293133;
 }
 
 @include media-breakpoint-up(sm) {
