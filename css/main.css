@@ -91,7 +91,9 @@ html {
 body{
     color:#293133;
 }
-
+.text-muted {
+    color: #B6DBE3;
+}
 @include media-breakpoint-up(sm) {
   html {
     font-size: 16px;
